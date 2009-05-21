@@ -1,0 +1,22 @@
+<h1>Editing items_mob</h1>
+
+<%= error_messages_for :items_mob %>
+
+<% form_for(:items_mob, :url => items_mob_path(@items_mob), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Item</b><br />
+    <%= f.text_field :item_id %>
+  </p>
+
+  <p>
+    <b>Mob</b><br />
+    <%= f.text_field :mob_id %>
+  </p>
+
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', items_mob_path(@items_mob) %> |
+<%= link_to 'Back', items_mobs_path %>

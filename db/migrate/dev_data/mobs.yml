@@ -1,0 +1,449 @@
+mob_1:
+  name: Cultist
+  min_level: 21
+  max_level: 35
+  spawntime: 10
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_2:
+  name: Deathless Legionnaire
+  min_level: 48
+  max_level: 50
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_3:
+  name: Eternal Guardian
+  min_level: 50
+  max_level: 52
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_4:
+  name: Eternal Sentienal
+  min_level: 18
+  max_level: 20
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_5:
+  name: Ju-ju Doll
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_6:
+  name: Reanimated Corpse
+  min_level: 17
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_7:
+  name: Caska the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_8:
+  name: Cyth the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_9:
+  name: Malikai the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_10:
+  name: Murial the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_11:
+  name: Nathan the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_12:
+  name: Oran the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 12
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_13:
+  name: Pallen the Faithful
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_14:
+  name: Acolyte Amber
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_15:
+  name: Acolyte Betany
+  min_level: 33
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_16:
+  name: Acolyte Bryant
+  min_level: 39
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_17:
+  name: Acolyte Dominic
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_18:
+  name: Acolyte Felid
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_19:
+  name: Acolyte Kalen
+  min_level: 39
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_20:
+  name: Acolyte Kellian
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_21:
+  name: Acolyte Opet
+  min_level: 32
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_22:
+  name: Acolyte Seleen
+  min_level: 
+  max_level: 
+  spawntime: 12
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_23:
+  name: Acolyte Verona
+  min_level: 37
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_24:
+  name: Reverend Cadelly
+  min_level: 36
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_25:
+  name: Reverend Dashell
+  min_level: 42
+  max_level: 45
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_26:
+  name: Reverend Gulard
+  min_level: 38
+  max_level: 39
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_27:
+  name: Reverend Hyuan
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_28:
+  name: Reverend Julaan
+  min_level: 40
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_29:
+  name: Reverend Oluay
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_30:
+  name: Reverend Saxx
+  min_level: 45
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_31:
+  name: Windcaller Donnel
+  min_level: 50
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_32:
+  name: Windcaller Rendal
+  min_level: 35
+  max_level: 36
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_33:
+  name: Windcaller Tilla
+  min_level: 49
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_34:
+  name: Windcaller Yatila
+  min_level: 56
+  max_level: 57
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_35:
+  name: Windcaller Yen
+  min_level: 35
+  max_level: 36
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_36:
+  name: Exarch Ecclese
+  min_level: 55
+  max_level: 56
+  spawntime: 10
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_37:
+  name: Exarch Gevarain
+  min_level: 43
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_38:
+  name: Exarch Li-Po
+  min_level: 44
+  max_level: 46
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_39:
+  name: Exarch Pilvar
+  min_level: 53
+  max_level: 55
+  spawntime: 10
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_40:
+  name: Exarch Truan
+  min_level: 53
+  max_level: 56
+  spawntime: 10
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_41:
+  name: Defender of the Three
+  min_level: 41
+  max_level: 42
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_42:
+  name: Lien the Memorystalker
+  min_level: 65
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_43:
+  name: The Reanimator
+  min_level: 58
+  max_level: 59
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_44:
+  name: Nematet the Custodian of Time
+  min_level: 68
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_45:
+  name: The Curator
+  min_level: 52
+  max_level: 54
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_46:
+  name: Guardian of Tomorrow
+  min_level: 67
+  max_level: 69
+  spawntime: 20
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_47:
+  name: Gartua the Doorkeeper
+  min_level: 63
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_48:
+  name: Uklesh the Frozen
+  min_level: 73
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_49:
+  name: Khalum
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 
+
+mob_50:
+  name: Aztur the Immortal
+  min_level: 
+  max_level: 
+  spawntime: 
+  more_info: 
+  info_url: 
+  forum_url: 

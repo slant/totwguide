@@ -1,0 +1,2 @@
+module MobsNanosHelper
+end

@@ -1,0 +1,21 @@
+<%- @page_title = @item.name -%>
+  <div id="item_page">
+    <div id="page_name"><h3><%= @item.name %></h3></div>
+    <div id="item_details">
+      <%= image_tag 'items/' + @item.image.to_s + '.gif', {:class => 'item_image'} %>
+      <dl>
+        <dt>profession</dt>
+        <dd><%= @item.profession.capitalize %></dd><br />
+        <dt>category</dt>
+        <dd><%= @item.category.capitalize %></dd><br />
+        <dt>more information</dt>
+        <dd><%= link_to 'Auno', 'http://www.auno.org/ao/db.php?id=' + @item.item_ref.to_s %>, <%= link_to 'Anarchy Mainframe', 'http://aomainframe.info/showitem.aspx?AOID=' + @item.item_ref.to_s %></dd><br />
+        <dt></dt>
+        <dd></dd><br />
+      </dl>
+    </div>
+    <div id="mob_list">
+      <h4>This item is droped by <%= @item.mobs.size %> mobs</h4>
+      <%= render :partial =>'shared/mob', :collection => @item.mobs %>
+    </div>
+  </div>

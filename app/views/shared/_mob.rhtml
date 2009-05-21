@@ -1,0 +1,4 @@
+<div class="mob list">
+  <span class="name"><%= link_to mob.name, :controller => 'mobs', :action => 'show', :id => mob %></span><br />
+  <span class="stats">drops <%= pluralize(mob.items.size, 'item') %></span><br />
+</div>

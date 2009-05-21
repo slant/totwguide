@@ -1,0 +1,22 @@
+<h1>Listing nanos</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Url</th>
+  </tr>
+  
+<% for nano in @nanos %>
+  <tr>
+    <td><%=h nano.name %></td>
+    <td><%=h nano.url %></td>
+    <td><%= link_to 'Show', nano_path(nano) %></td>
+    <td><%= link_to 'Edit', edit_nano_path(nano) %></td>
+    <td><%= link_to 'Destroy', nano_path(nano), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New nano', new_nano_path %>

@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  name: MyString
+  item_ref: 1
+  image: MyString
+  profession: MyString
+  category: MyString
+  rarity: 1
+  droprate: 1
+  more_info: MyText
+  info_url: MyString
+  forum_url: MyString
+two:
+  id: 2
+  name: MyString
+  item_ref: 1
+  image: MyString
+  profession: MyString
+  category: MyString
+  rarity: 1
+  droprate: 1
+  more_info: MyText
+  info_url: MyString
+  forum_url: MyString

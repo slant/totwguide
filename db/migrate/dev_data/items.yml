@@ -1,0 +1,851 @@
+item_1:
+  name: Enhanced MTI M-2 Bipower
+  item_ref: 123733
+  image: 13314
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 37
+
+item_2:  
+  name: Breathing Space
+  item_ref: 129071
+  image: 13349
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 33
+
+item_3:  
+  name: Magical Stave of Inferno
+  item_ref: 130085
+  image: 136738
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 42
+
+item_4:  
+  name: North Wind Katana
+  item_ref: 160210
+  image: 114000
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_katanas.php
+  forum_url: 81
+
+item_5:  
+  name: South Wind Katana
+  item_ref: 160213
+  image: 113998
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_katanas.php
+  forum_url: 109
+
+item_6:  
+  name: West Wind Katana
+  item_ref: 160273
+  image: 113999
+  profession: Martial Artist
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_katanas.php
+  forum_url: 124
+
+item_7:  
+  name: Ring of Memory Loss
+  item_ref: 204569
+  image: 84066
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 94
+
+item_8:  
+  name: Bronze Ring of the Three
+  item_ref: 204571
+  image: 151930
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 5
+
+item_9:  
+  name: Silver Ring of the Three
+  item_ref: 204572
+  image: 151929
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 105
+
+item_10:  
+  name: Gold Ring of the Three
+  item_ref: 204573
+  image: 84059
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 8
+
+item_11:  
+  name: Platinum Ring of the Three (BioMet/MatMet)
+  item_ref: 204574
+  image: 84063
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 87
+
+item_12:  
+  name: Platinum Ring of the Three (MatCreation/SpaceTime)
+  item_ref: 204575
+  image: 84063
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 89
+
+item_13:  
+  name: Platinum Ring of the Three (PsyMod/SensoryImp)
+  item_ref: 204576
+  image: 84063
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 90
+
+item_14:  
+  name: Notum Ring of the Three (BioMet/MatMet)
+  item_ref: 204577
+  image: 84064
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 82
+
+item_15:  
+  name: Notum Ring of the Three (MatCreation/SpaceTime)
+  item_ref: 204578
+  image: 84064
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 83
+
+item_16:  
+  name: Notum Ring of the Three (PsyMod/SensoryImp)
+  item_ref: 204579
+  image: 84064
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 84
+
+item_17:  
+  name: Ring of Tattered Flame
+  item_ref: 204593
+  image: 84060
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 95
+
+item_18:  
+  name: Ring of Weeping Flesh
+  item_ref: 204595
+  image: 151927
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 96
+
+item_19:  
+  name: Bloodleech Ring
+  item_ref: 204596
+  image: 84066
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 3
+
+item_20:  
+  name: Ring of Eternal Night
+  item_ref: 204598
+  image: 151921
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_rings.php
+  forum_url: 93
+
+item_21:  
+  name: Guardian Circuit Board
+  item_ref: 204601
+  image: 149938
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 40
+
+item_22:  
+  name: Dark Memories
+  item_ref: 204602
+  image: 12695
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 34
+
+item_23:  
+  name: Memory Loop
+  item_ref: 204603
+  image: 119139
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 43
+
+item_24:  
+  name: Purifying Rod
+  item_ref: 204608
+  image: 100306
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 91
+
+item_25:  
+  name: Nematets Inner Eye
+  item_ref: 204613
+  image: 12706
+  profession: Any
+  category: Implant
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 0
+
+item_26:  
+  name: Inner Faith
+  item_ref: 204614
+  image: 12691
+  profession: Any
+  category: Implant
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 27
+
+item_27:  
+  name: Skull of the Ancient
+  item_ref: 204647
+  image: 195259
+  profession: Any
+  category: Implant
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 107
+
+item_28:  
+  name: Notum Splice
+  item_ref: 204649
+  image: 12665
+  profession: Any
+  category: Implant
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 85
+
+item_29:  
+  name: Keepers Vitality
+  item_ref: 204650
+  image: 12699
+  profession: Any
+  category: Implant
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 28
+
+item_30:  
+  name: Touch of the Gripper
+  item_ref: 204651
+  image: 12672
+  profession: Any
+  category: Implant
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 123
+
+item_31:  
+  name: Barrow Strength
+  item_ref: 204653
+  image: 144709
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 2
+
+item_32:  
+  name: Withered Flesh
+  item_ref: 204698
+  image: 144704
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 126
+
+item_33:  
+  name: Shadowfade Armor (Body)
+  item_ref: 204699
+  image: 13249
+  profession: Agent
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_shadowfade.php
+  forum_url: 99
+
+item_34:  
+  name: Shadowfade Armor (Sleeves)
+  item_ref: 204700
+  image: 13227
+  profession: Agent
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_shadowfade.php
+  forum_url: 104
+
+item_35:  
+  name: Shadowfade Armor (Gloves)
+  item_ref: 204701
+  image: 13279
+  profession: Agent
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_shadowfade.php
+  forum_url: 101
+
+item_36:  
+  name: Shadowfade Armor (Pants)
+  item_ref: 204702
+  image: 13294
+  profession: Agent
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_shadowfade.php
+  forum_url: 103
+
+item_37:  
+  name: Shadowfade Armor (Boots)
+  item_ref: 204703
+  image: 13265
+  profession: Agent
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_shadowfade.php
+  forum_url: 100
+
+item_38:  
+  name: Shadowfade Armor (Helmet)
+  item_ref: 204704
+  image: 22269
+  profession: Agent
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_shadowfade.php
+  forum_url: 102
+
+item_39:  
+  name: Temporal Chalice
+  item_ref: 204706
+  image: 37929
+  profession: Doctor
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 122
+
+item_40:  
+  name: Crumbling Funeral Urn
+  item_ref: 204708
+  image: 154195
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_crystalizer.php
+  forum_url: 55
+
+item_41:  
+  name: "Tattered book: Ape Fist of Khalum (section 1)"
+  item_ref: 204711
+  image: 136332
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 111
+
+item_42:  
+  name: "Tattered book: Ape Fist of Khalum (section 2)"
+  item_ref: 204712
+  image: 136332
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 112
+
+item_43:  
+  name: "Tattered book: Ape Fist of Khalum (section 3)"
+  item_ref: 204713
+  image: 136332
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 113
+
+item_44:  
+  name: "Tattered book: Ape Fist of Khalum (section 4)"
+  item_ref: 204714
+  image: 136332
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 114
+
+item_45:  
+  name: "Tattered book: Ape Fist of Khalum (section 5)"
+  item_ref: 204715
+  image: 136332
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 115
+
+item_46:  
+  name: "Tattered book: Tree of Enlightenment (section 1)"
+  item_ref: 204720
+  image: 136328
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 116
+
+item_47:  
+  name: "Tattered book: Tree of Enlightenment (section 2)"
+  item_ref: 204721
+  image: 136328
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 117
+
+item_48:  
+  name: "Tattered book: Tree of Enlightenment (section 3)"
+  item_ref: 204722
+  image: 136328
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 118
+
+item_49:  
+  name: "Tattered book: Tree of Enlightenment (section 4)"
+  item_ref: 204723
+  image: 136328
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 119
+
+item_50:  
+  name: "Tattered book: Tree of Enlightenment (section 5)"
+  item_ref: 204724
+  image: 136328
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 120
+
+item_51:  
+  name: "Tattered book: Tree of Enlightenment (section 6)"
+  item_ref: 204725
+  image: 136328
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_books.php
+  forum_url: 121
+
+item_52:  
+  name: Frozen Tear of Uklesh
+  item_ref: 204739
+  image: 204740
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 39
+
+item_53:  
+  name: Phase Blade
+  item_ref: 204745
+  image: 204740
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 86
+
+item_54:  
+  name: Frost Scythe of the Legionnaire
+  item_ref: 204746
+  image: 204741
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 38
+
+item_55:  
+  name: Energy Scythe
+  item_ref: 204747
+  image: 204741
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 36
+
+item_56:  
+  name: Guardian Tank Armor
+  item_ref: 204748
+  image: 22395
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_gta.php
+  forum_url: 9
+
+item_57:  
+  name: Howling Skull
+  item_ref: 204750
+  image: 204742
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 41
+
+item_58:  
+  name: Skull of Woe
+  item_ref: 204751
+  image: 204742
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: The Re-Animator
+  forum_url: 108
+
+item_59:  
+  name: Skull of Lamentation
+  item_ref: 204752
+  image: 204742
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 106
+
+item_60:  
+  name: Stygian Desolator
+  item_ref: 204755
+  image: 204827
+  profession: Any
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url:   http://ao.cylence.org/temple/guides/item_desolator.php
+  forum_url: 110
+
+item_61:  
+  name: Bracelet of Amplified Sound
+  item_ref: 204756
+  image: 84053
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 4
+
+item_62:  
+  name: Fist of Orion
+  item_ref: 204757
+  image: 13281
+  profession: Martial Artist
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 7
+
+item_63:  
+  name: Rockcrusher Gauntlets
+  item_ref: 204758
+  image: 13286
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 98
+
+item_64:  
+  name: Exarch Robe
+  item_ref: 204759
+  image: 159569
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 1
+  info_url: http://ao.cylence.org/temple/guides/item_robes.php
+  forum_url: 6
+
+item_65:  
+  name: Windcaller Robe
+  item_ref: 204760
+  image: 159572
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 1
+  info_url: http://ao.cylence.org/temple/guides/item_robes.php
+  forum_url: 125
+
+item_66:  
+  name: Robe of the Faithful
+  item_ref: 204761
+  image: 159570
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 1
+  info_url: http://ao.cylence.org/temple/guides/item_robes.php
+  forum_url: 97
+
+item_67:  
+  name: Reverend Robe
+  item_ref: 204762
+  image: 159571
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 1
+  info_url: http://ao.cylence.org/temple/guides/item_robes.php
+  forum_url: 92
+
+item_68:  
+  name: Acolyte Robe
+  item_ref: 204763
+  image: 159573
+  profession: Any
+  category: Armor
+  rarity: 
+  droprate: 
+  more_info: 1
+  info_url: http://ao.cylence.org/temple/guides/item_robes.php
+  forum_url: 1
+
+item_69:  
+  name: Holy Book of the Immortal
+  item_ref: 204765
+  image: 136329
+  profession: Doctor
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: 
+  forum_url: 56
+
+item_70:  
+  name: Nano Crystal (Liens Crystalizer)
+  item_ref: 204829
+  image: 42450
+  profession: Any
+  category: Misc
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_crystalizer.php
+  forum_url: 57
+
+item_71:  
+  name: East Wind Katana
+  item_ref: 160216
+  image: 113999
+  profession: Adventurer
+  category: Weapon
+  rarity: 
+  droprate: 
+  more_info: 
+  info_url: http://ao.cylence.org/temple/guides/item_katanas.php
+  forum_url: 35

@@ -1,0 +1,7 @@
+<div class="item list">
+  <%= link_to (image_tag 'items/' + item.image.to_s + '.gif', {:class => 'item_image'}), :controller => 'items', :action => 'show', :id => item %>
+  <div class="description">
+    <span class="name"><%= link_to item.name, :controller => 'items', :action => 'show', :id => item %></span><br />
+    <span class="stats">found on <%= pluralize(item.mobs.size, 'mob') %></span><br />
+  </div>
+</div>

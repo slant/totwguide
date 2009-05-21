@@ -1,0 +1,8 @@
+<%- for post in @posts -%>
+        <div class="post">
+          <h3><%= post.title %></h3>
+          <%- display_if_admin do -%>(<%= link_to "edit", edit_post_path(post) %>)<%- end -%>
+          <div class="post_body"><%= post.body %></div>
+          <span>posted by <%= post.account.login %> <%= time_ago_in_words(post.created_at) %> ago</span>
+        </div>
+<%- end -%>

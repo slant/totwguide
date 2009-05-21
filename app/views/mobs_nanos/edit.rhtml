@@ -1,0 +1,22 @@
+<h1>Editing mobs_nano</h1>
+
+<%= error_messages_for :mobs_nano %>
+
+<% form_for(:mobs_nano, :url => mobs_nano_path(@mobs_nano), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Mob</b><br />
+    <%= f.text_field :mob_id %>
+  </p>
+
+  <p>
+    <b>Nano</b><br />
+    <%= f.text_field :nano_id %>
+  </p>
+
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', mobs_nano_path(@mobs_nano) %> |
+<%= link_to 'Back', mobs_nanos_path %>

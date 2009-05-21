@@ -1,0 +1,36 @@
+<html>
+
+  <head>
+    <meta name="keywords" content="Anarchy Online, AO, Temple, Greater Tir County, Temple of Three Winds, Temple of the Three Winds, totw, totw guide, map, list, loot, loots, mob, mobs, level, race, weapon, item, items, stratagy, description, Domain of Cylence, Cylence, Saneth" />
+    <meta name="description" content="This site is the ultimate source of information about the Temple of Three Winds, a dungeon in the popular MMORPG Anarchy Online. This site includes information such as which mobs drop what items and in depth information about the mobs themselves such as level ranges and weapon types." />
+    <%= stylesheet_link_tag 'stylesheet' %>
+    <%= javascript_include_tag 'application.js' %>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <title>Temple of Three Winds Guide<%= !@page_title.nil? ? " - " + @page_title : nil %></title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header"></div>
+      <div id="ads">
+<%= render :partial => 'shared/top_ads' %>
+      </div>
+      <%- if flash[:notice] -%>
+      <div id="flash"><p><%= flash[:notice] %></p></div>
+      <%- end -%>
+      <div id="user_panel">
+<%= render :partial => 'shared/user_panel' %>
+      </div>
+      <div id="nav">
+<%= render :partial => 'shared/nav' %>
+      </div>
+      <div id="content">
+<%= yield :layout -%>
+      </div>
+      <div id="footer">
+      Built and maintained by <a href="http://www.cylenceweb.com">Cylence Web Design</a>
+      </div>
+    </div>
+<%= render :partial => 'shared/analytics' %>
+  </body>
+
+</html>

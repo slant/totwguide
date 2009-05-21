@@ -1,0 +1,20 @@
+<div id="sort">
+<%= render :partial => 'shared/sort' %>
+</div>
+
+<%- if params[:sort] == "category" -%>
+  <%- @page_title = "Items sorted by Category" -%>
+  <%- @items_by_category.each do |category, items| -%>
+    <h2 class="sort_header"><%= category %></h2>
+    <%= render :partial => 'shared/item', :collection => items %>
+  <%- end -%>
+<%- elsif params[:sort] == "profession" -%>
+  <%- @page_title = "Items sorted by Profession" -%>
+  <%- @items_by_profession.each do |profession, items| -%>
+    <h2 class="sort_header"><%= profession %></h2>
+    <%= render :partial => 'shared/item', :collection => items %>
+  <%- end -%>
+<%- else -%>
+  <%- @page_title = "Items" -%>
+  <%= render :partial => 'shared/item', :collection => @items %>
+<%- end -%>

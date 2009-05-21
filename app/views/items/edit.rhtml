@@ -1,0 +1,63 @@
+<%- @page_title = "Editing #{@item.name}" -%>
+<h1>Editing item</h1>
+
+<%= error_messages_for :item %>
+
+<% form_for(:item, :url => item_path(@item), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <b>Item ref</b><br />
+    <%= f.text_field :item_ref %>
+  </p>
+
+  <p>
+    <b>Image</b><br />
+    <%= f.text_field :image %>
+  </p>
+
+  <p>
+    <b>Profession</b><br />
+    <%= f.text_field :profession %>
+  </p>
+
+  <p>
+    <b>Category</b><br />
+    <%= f.text_field :category %>
+  </p>
+
+  <p>
+    <b>Rarity</b><br />
+    <%= f.text_field :rarity %>
+  </p>
+
+  <p>
+    <b>Droprate</b><br />
+    <%= f.text_field :droprate %>
+  </p>
+
+  <p>
+    <b>More info</b><br />
+    <%= f.text_area :more_info %>
+  </p>
+
+  <p>
+    <b>Info url</b><br />
+    <%= f.text_field :info_url %>
+  </p>
+
+  <p>
+    <b>Forum url</b><br />
+    <%= f.text_field :forum_url %>
+  </p>
+
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', item_path(@item) %> |
+<%= link_to 'Back', items_path %>

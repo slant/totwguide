@@ -1,0 +1,485 @@
+/* @override http://localhost:3000/stylesheets/stylesheet.css?1179553494 */
+
+/***********************************
+
+ Site: Temple of Three Winds Guide
+ URL: http://ao.cylence.org/temple
+ Author: Ryan L. Cross
+ Version: 2006.03.06
+
+***********************************/
+
+/***************************
+
+ Theme: Stone Hall (brown)
+ #847C6F	light
+ #58524E	dark
+ #84786F	red
+ #847E79	blue
+ #84816F	green
+
+ Theme: Stone Hall (yellow)
+ #AD9F82	light
+ #937E52	dark
+ #84786F	red
+ #847E79	blue
+ #84816F	green
+
+***************************/
+
+body {
+  background-color: #AD9F82;
+  background-image: url('/images/background.jpg');
+  background-repeat: repeat-x;
+  text-align: center;
+  font-family: verdana;
+  font-size: 12px;
+  padding: 0;
+  }
+
+#container {
+  background: #937E52;
+  border: 1px solid #38322E;
+  text-align: left;
+  width: 750px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  }
+
+#header {
+  background: #A49C8F;
+  background-image: url('/images/totwg-header.jpg');
+  background-repeat: no-repeat;
+  border: 1px solid #38322E;
+  height: 42px;
+  margin: 5px;
+  padding: 3px;
+  }
+
+#ads {
+  background: #AD9F82;
+  border: 1px solid #38322E;
+  margin: 5px;
+  padding: 3px;
+  }
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  }
+
+
+/* Rails-specific styles */
+
+#flash {
+  background: #D8C7A4;
+  border: 1px solid #38322E;
+  font-size: 10px;
+  font-weight: bold;
+  color: #38322E;
+  text-align: center;
+  margin: 5px;
+  padding: 3px;
+  }
+
+#flash p {
+  margin: 0;
+}
+
+
+/* Login and Registration styles */
+
+div#register,
+div#login {
+  background: #9D8F72;
+  border: 1px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  }
+
+div#register {
+  width: 250px;
+  }
+
+div#login {
+  width: 170px;
+  }
+
+div#register input,
+div#login input {
+  background: #AD9F82;
+  border: 1px solid #635E43;
+  }
+
+div#register label,
+div#login label {
+  font-size: 1.2em;
+  font-weight: bold;
+  }
+
+
+/* User Panel styles */
+
+#user_panel {
+  float: left;
+  clear: none;
+  background: #AD9F82;
+  border: 1px solid #38322E;
+  font-size: 10px;
+  width: 130px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  }
+
+#user_panel .name {
+  font-weight: bold;
+  }
+
+#user_panel a {
+  color: #38322E;
+  text-decoration: none;
+  }
+
+
+/* Navigation styles */
+
+#nav {
+  float: left;
+  clear: left;
+  background: #AD9F82;
+  border: 1px solid #38322E;
+  width: 140px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  }
+
+#nav ul {
+  border: 0px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  }
+
+#nav ul li {
+  background: url('/images/nav-bg.jpg') repeat-y;
+  border-bottom: 1px solid #38322E;
+  border-left: 0;
+  margin: 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  }
+
+#nav ul li.last {
+  border-bottom: 0px;
+  }
+
+#nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px 5px 20px;
+  }
+
+#nav ul li a:hover {
+  background: #836E43;
+  }
+
+
+/* Content styles */
+
+#content {
+  background: #AD9F82;
+  border: 1px solid #38322E;
+  clear: none;
+  margin: 5px;
+  margin-left: 152px;
+  padding: 5px;
+  }
+
+#content a {
+  color: #38322E;
+  text-decoration: none;
+  }
+
+#content-options {
+  background: #AD9F82;
+  border: 1px solid #38322E;
+  clear: none;
+  margin: 5px;
+  margin-left: 152px;
+  padding: 3px;
+  }
+
+#content span {
+  font-weight: bold;
+  font-size: 10px;
+  }
+
+#content .post {
+  background: #9D8F72;
+  border: 1px solid #000000;
+  font-family: verdana;
+  font-size: 12px;
+  margin: 4px;
+  padding: 3px;
+  }
+
+#content .post h3 {
+  margin: 0;
+  padding: 0;
+  }
+
+#content .post div.post_body {
+  margin: 7px 0;
+  }
+
+#content #map {
+  margin: 4px;
+}
+
+
+/* Item and Mob List styles */
+
+.list {
+  background: #9D8F72;
+  border: 1px solid #000000;
+  font-size: 12px;
+  margin: 4px;
+  padding: 5px;
+  }
+
+.list .name a {
+  font-size: 12px;
+  }
+
+.list .stats {
+  font-size: 10px;
+  color: #4E4A46;
+  }
+
+.list .items_mobs {
+  font-size: 10px;
+  }
+
+#sort {
+  background: #9D8F72;
+  border: 1px solid #000000;
+  margin: 4px;
+  padding: 5px;
+  }
+
+#sort a.selected {
+  background: #AD9F82;
+  border: 1px solid #635E43;
+  padding: 1px 3px;
+  }
+
+
+/* Show Item and Mob styles*/
+
+#item_page h3,
+#item_page #item_details,
+#item_page #mob_list,
+#mob_page h3,
+#mob_page #mob_details,
+#mob_page #item_list {
+  display: block;
+  background: #9D8F72;
+  border: 1px solid #000000;
+  }
+
+#item_page #page_name,
+#mob_page #page_name {
+  padding: 0;
+  margin: 0;
+  }
+
+#item_page h3,
+#mob_page h3 {
+  padding: 7px;
+  margin: 0;
+  }
+
+#item_page h4,
+#mob_page h4 {
+  padding: 7px 4px 4px 7px;
+  margin: 0;
+  }
+
+#item_page #item_details,
+#item_page #mob_list,
+#mob_page #mob_details,
+#mob_page #item_list {
+  margin-top: 5px;
+  }
+  
+#item_page #mob_list ul,
+#mob_page #item_list ul {
+  list-style: none;
+  }
+
+dl {
+  margin: 3px;
+  }
+
+dt {
+  display: inline;
+  color: #4E4A46;
+  font-size: 10px;
+  font-family: verdana;
+  }
+
+dd {
+  display: inline;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 2px;
+  }
+
+#item_page #mob_list .mob,
+#mob_page #item_list .item {
+  background: #AD9F82;
+  }
+
+#item_page #mob_list .mob img,
+#mob_page #item_list .item img {
+  background: #9D8F72;
+  }
+
+#item_page #mob_list ul,
+#mob_page #item_list ul {
+  margin: 0;
+  padding-left: 0;
+  }
+
+#item_page #mob_list li,
+#mob_page #item_list li {
+  background: #AD9F82;
+  border: 1px solid black;
+  padding: 0;
+  }
+
+#item_page #mob_list li a,
+#mob_page #item_list li a {
+  display: block;
+  margin: 0;
+  }
+
+
+/* Item List styles */
+
+h2.sort_header {
+  margin-left: 5px;
+  }
+
+.item {
+  height: 32px;
+  }
+
+.item .item_image {
+  background: #AD9F82;
+  border: 1px solid #635E43;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 3px;
+  float: none;
+  position: absolute;
+  }
+
+.item .description {
+  width: 500px;
+  margin-top: 2px;
+  margin-left: 42px;
+  }
+
+
+/* Show Item styles */
+
+#item_page #item_details {
+  min-height: 66px;
+  }
+
+#item_details .item_image {
+  float: left;
+  background: #AD9F82;
+  border: 1px solid #635E43;
+  margin: 5px;
+  padding: 3px;
+  }
+
+#item_details dl {
+  padding-top: 7px;
+  margin-left: 70px;
+  }
+
+#item_page #mob_list li {
+  margin: 2px;
+  padding: 3px;
+  }
+
+
+/* Show Mob styles */
+
+#mob_page #item_list ul {
+  padding-left: 0;
+}
+
+#mob_page #item_list li {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 0;
+  }
+
+#mob_page #item_list li a {
+  display: block;
+  padding: 10px 10px 10px 30px;
+  }
+
+#item_list li img {
+  background: #AD9F82;
+  border: 1px solid #635E43;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 3px;
+  }
+  
+#mob_details dl {
+  padding: 7px;
+  }
+
+#mob_page #item_list li {
+  margin: 5px;
+  }
+
+#mob_page #item_list li a {
+  padding: 10px 10px 10px 30px;
+  }
+
+
+/* Footer styles */
+
+#footer {
+  background: #AD9F82;
+  border: 1px solid #38322E;
+  clear: both;
+  font-size: 10px;
+  margin: 5px;
+  padding: 3px;
+  }
+
+#footer a {
+  color: #000000;
+  }
+
+#footer a:hover {
+  text-decoration: none;
+  }

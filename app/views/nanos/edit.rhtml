@@ -1,0 +1,22 @@
+<h1>Editing nano</h1>
+
+<%= error_messages_for :nano %>
+
+<% form_for(:nano, :url => nano_path(@nano), :html => { :method => :put }) do |f| %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <b>Url</b><br />
+    <%= f.text_field :url %>
+  </p>
+
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', nano_path(@nano) %> |
+<%= link_to 'Back', nanos_path %>

@@ -1,0 +1,21 @@
+<h1>New items_mob</h1>
+
+<%= error_messages_for :items_mob %>
+
+<% form_for(:items_mob, :url => items_mobs_path) do |f| %>
+  <p>
+    <b>Item</b><br />
+    <%= f.text_field :item_id %>
+  </p>
+
+  <p>
+    <b>Mob</b><br />
+    <%= f.text_field :mob_id %>
+  </p>
+
+  <p>
+    <%= submit_tag "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', items_mobs_path %>

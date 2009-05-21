@@ -1,0 +1,7 @@
+<%- if logged_in? -%>
+  Hello, <span class="name"><%= current_account.login %></span>!<br />
+  Preferences | <%= link_to 'logout', logout_path %>
+<% else %>
+  Welcome! (<%= link_to 'login', login_path %>)
+<%- # or link_to 'register', register_path -%>
+<%- end -%>

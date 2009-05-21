@@ -1,0 +1,22 @@
+<h1>Listing mobs_nanos</h1>
+
+<table>
+  <tr>
+    <th>Mob</th>
+    <th>Nano</th>
+  </tr>
+  
+<% for mobs_nano in @mobs_nanos %>
+  <tr>
+    <td><%=h mobs_nano.mob_id %></td>
+    <td><%=h mobs_nano.nano_id %></td>
+    <td><%= link_to 'Show', mobs_nano_path(mobs_nano) %></td>
+    <td><%= link_to 'Edit', edit_mobs_nano_path(mobs_nano) %></td>
+    <td><%= link_to 'Destroy', mobs_nano_path(mobs_nano), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New mobs_nano', new_mobs_nano_path %>

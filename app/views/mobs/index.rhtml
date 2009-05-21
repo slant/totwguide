@@ -1,0 +1,7 @@
+<%- @page_title = "Mobs" -%>
+<%- for mob in @mobs -%>
+        <div class="mob list">
+          <span class="name"><%= link_to mob.name, :action => 'show', :id => mob %></span><br />
+          <span class="stats">drops <%= pluralize(mob.items.size, 'item') %></span><br />
+        </div>
+<%- end -%>

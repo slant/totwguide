@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  name: MyString
+  min_level: 1
+  max_level: 1
+  spawntime: 1
+  more_info: MyText
+  info_url: MyString
+  forum_url: MyString
+two:
+  id: 2
+  name: MyString
+  min_level: 1
+  max_level: 1
+  spawntime: 1
+  more_info: MyText
+  info_url: MyString
+  forum_url: MyString

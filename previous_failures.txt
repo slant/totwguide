@@ -1,0 +1,173 @@
+ItemsController handling DELETE /items/1 should redirect to the items list
+ItemsController handling DELETE /items/1 should call destroy on the found item
+ItemsController handling DELETE /items/1 should find the item requested
+ItemsController handling PUT /items/1 should redirect to the item
+ItemsController handling PUT /items/1 should assign the found item for the view
+ItemsController handling PUT /items/1 should update the found item
+ItemsController handling PUT /items/1 should find the item requested
+ItemsController handling POST /items should redirect to the new item
+ItemsController handling POST /items should create a new item
+ItemsController handling GET /items/1;edit should assign the found Item for the view
+ItemsController handling GET /items/1;edit should find the item requested
+ItemsController handling GET /items/1;edit should render edit template
+ItemsController handling GET /items/1;edit should be successful
+ItemsController handling GET /items/new should assign the new item for the view
+ItemsController handling GET /items/new should create an new item
+ItemsController handling GET /items/new should render new template
+ItemsController handling GET /items/new should be successful
+ItemsController handling GET /items.xml should render the found items as xml
+ItemsController handling GET /items.xml should find all items
+ItemsController handling GET /items.xml should be successful
+ItemsController handling GET /items should assign the found items for the view
+ItemsController handling GET /items should find all items
+ItemsController handling GET /items should render index template
+ItemsController handling GET /items should be successful
+/items/index.rhtml should render list of items
+/items/show.rhtml should render attributes in <p>
+/mobs/index.rhtml should render list of mobs
+/mobs/show.rhtml should render attributes in <p>
+MobsController handling DELETE /mobs/1 should redirect to the mobs list
+MobsController handling DELETE /mobs/1 should call destroy on the found mob
+MobsController handling DELETE /mobs/1 should find the mob requested
+MobsController handling PUT /mobs/1 should redirect to the mob
+MobsController handling PUT /mobs/1 should assign the found mob for the view
+MobsController handling PUT /mobs/1 should update the found mob
+MobsController handling PUT /mobs/1 should find the mob requested
+MobsController handling POST /mobs should redirect to the new mob
+MobsController handling POST /mobs should create a new mob
+MobsController handling GET /mobs/1;edit should assign the found Mob for the view
+MobsController handling GET /mobs/1;edit should find the mob requested
+MobsController handling GET /mobs/1;edit should render edit template
+MobsController handling GET /mobs/1;edit should be successful
+MobsController handling GET /mobs/new should assign the new mob for the view
+MobsController handling GET /mobs/new should create an new mob
+MobsController handling GET /mobs/new should render new template
+MobsController handling GET /mobs/new should be successful
+MobsController handling GET /mobs.xml should find all mobs
+MobsController handling GET /mobs should find all mobs
+PostsController handling DELETE /posts/1 should redirect to the posts list
+PostsController handling DELETE /posts/1 should call destroy on the found post
+PostsController handling DELETE /posts/1 should find the post requested
+PostsController handling PUT /posts/1 should redirect to the post
+PostsController handling PUT /posts/1 should assign the found post for the view
+PostsController handling PUT /posts/1 should update the found post
+PostsController handling PUT /posts/1 should find the post requested
+PostsController handling POST /posts should redirect to the new post
+PostsController handling POST /posts should create a new post
+PostsController handling GET /posts/1;edit should assign the found Post for the view
+PostsController handling GET /posts/1;edit should find the post requested
+PostsController handling GET /posts/1;edit should render edit template
+PostsController handling GET /posts/1;edit should be successful
+PostsController handling GET /posts/new should assign the new post for the view
+PostsController handling GET /posts/new should create an new post
+PostsController handling GET /posts/new should render new template
+PostsController handling GET /posts/new should be successful
+PostsController handling GET /posts/1.xml should render the found post as xml
+PostsController handling GET /posts/1.xml should find the post requested
+PostsController handling GET /posts/1.xml should be successful
+PostsController handling GET /posts/1 should assign the found post for the view
+PostsController handling GET /posts/1 should find the post requested
+PostsController handling GET /posts/1 should render show template
+PostsController handling GET /posts/1 should be successful
+PostsController handling GET /posts.xml should render the found posts as xml
+PostsController handling GET /posts.xml should find all posts
+PostsController handling GET /posts.xml should be successful
+PostsController handling GET /posts should assign the found posts for the view
+PostsController handling GET /posts should find all posts
+PostsController handling GET /posts should render index template
+PostsController handling GET /posts should be successful
+/posts/show.rhtml should render attributes in <p>
+NanosController handling DELETE /nanos/1 should redirect to the nanos list
+NanosController handling DELETE /nanos/1 should call destroy on the found nano
+NanosController handling DELETE /nanos/1 should find the nano requested
+NanosController handling PUT /nanos/1 should redirect to the nano
+NanosController handling PUT /nanos/1 should assign the found nano for the view
+NanosController handling PUT /nanos/1 should update the found nano
+NanosController handling PUT /nanos/1 should find the nano requested
+NanosController handling POST /nanos should redirect to the new nano
+NanosController handling POST /nanos should create a new nano
+NanosController handling GET /nanos/1;edit should assign the found Nano for the view
+NanosController handling GET /nanos/1;edit should find the nano requested
+NanosController handling GET /nanos/1;edit should render edit template
+NanosController handling GET /nanos/1;edit should be successful
+NanosController handling GET /nanos/new should assign the new nano for the view
+NanosController handling GET /nanos/new should create an new nano
+NanosController handling GET /nanos/new should render new template
+NanosController handling GET /nanos/new should be successful
+NanosController handling GET /nanos/1.xml should render the found nano as xml
+NanosController handling GET /nanos/1.xml should find the nano requested
+NanosController handling GET /nanos/1.xml should be successful
+NanosController handling GET /nanos/1 should assign the found nano for the view
+NanosController handling GET /nanos/1 should find the nano requested
+NanosController handling GET /nanos/1 should render show template
+NanosController handling GET /nanos/1 should be successful
+NanosController handling GET /nanos.xml should render the found nanos as xml
+NanosController handling GET /nanos.xml should find all nanos
+NanosController handling GET /nanos.xml should be successful
+NanosController handling GET /nanos should assign the found nanos for the view
+NanosController handling GET /nanos should find all nanos
+NanosController handling GET /nanos should render index template
+NanosController handling GET /nanos should be successful
+MobsNanosController handling DELETE /mobs_nanos/1 should redirect to the mobs_nanos list
+MobsNanosController handling DELETE /mobs_nanos/1 should call destroy on the found mobs_nano
+MobsNanosController handling DELETE /mobs_nanos/1 should find the mobs_nano requested
+MobsNanosController handling PUT /mobs_nanos/1 should redirect to the mobs_nano
+MobsNanosController handling PUT /mobs_nanos/1 should assign the found mobs_nano for the view
+MobsNanosController handling PUT /mobs_nanos/1 should update the found mobs_nano
+MobsNanosController handling PUT /mobs_nanos/1 should find the mobs_nano requested
+MobsNanosController handling POST /mobs_nanos should redirect to the new mobs_nano
+MobsNanosController handling POST /mobs_nanos should create a new mobs_nano
+MobsNanosController handling GET /mobs_nanos/1;edit should assign the found MobsNano for the view
+MobsNanosController handling GET /mobs_nanos/1;edit should find the mobs_nano requested
+MobsNanosController handling GET /mobs_nanos/1;edit should render edit template
+MobsNanosController handling GET /mobs_nanos/1;edit should be successful
+MobsNanosController handling GET /mobs_nanos/new should assign the new mobs_nano for the view
+MobsNanosController handling GET /mobs_nanos/new should create an new mobs_nano
+MobsNanosController handling GET /mobs_nanos/new should render new template
+MobsNanosController handling GET /mobs_nanos/new should be successful
+MobsNanosController handling GET /mobs_nanos/1.xml should render the found mobs_nano as xml
+MobsNanosController handling GET /mobs_nanos/1.xml should find the mobs_nano requested
+MobsNanosController handling GET /mobs_nanos/1.xml should be successful
+MobsNanosController handling GET /mobs_nanos/1 should assign the found mobs_nano for the view
+MobsNanosController handling GET /mobs_nanos/1 should find the mobs_nano requested
+MobsNanosController handling GET /mobs_nanos/1 should render show template
+MobsNanosController handling GET /mobs_nanos/1 should be successful
+MobsNanosController handling GET /mobs_nanos.xml should render the found mobs_nanos as xml
+MobsNanosController handling GET /mobs_nanos.xml should find all mobs_nanos
+MobsNanosController handling GET /mobs_nanos.xml should be successful
+MobsNanosController handling GET /mobs_nanos should assign the found mobs_nanos for the view
+MobsNanosController handling GET /mobs_nanos should find all mobs_nanos
+MobsNanosController handling GET /mobs_nanos should render index template
+MobsNanosController handling GET /mobs_nanos should be successful
+ItemsMobsController handling DELETE /items_mobs/1 should redirect to the items_mobs list
+ItemsMobsController handling DELETE /items_mobs/1 should call destroy on the found items_mob
+ItemsMobsController handling DELETE /items_mobs/1 should find the items_mob requested
+ItemsMobsController handling PUT /items_mobs/1 should redirect to the items_mob
+ItemsMobsController handling PUT /items_mobs/1 should assign the found items_mob for the view
+ItemsMobsController handling PUT /items_mobs/1 should update the found items_mob
+ItemsMobsController handling PUT /items_mobs/1 should find the items_mob requested
+ItemsMobsController handling POST /items_mobs should redirect to the new items_mob
+ItemsMobsController handling POST /items_mobs should create a new items_mob
+ItemsMobsController handling GET /items_mobs/1;edit should assign the found ItemsMob for the view
+ItemsMobsController handling GET /items_mobs/1;edit should find the items_mob requested
+ItemsMobsController handling GET /items_mobs/1;edit should render edit template
+ItemsMobsController handling GET /items_mobs/1;edit should be successful
+ItemsMobsController handling GET /items_mobs/new should assign the new items_mob for the view
+ItemsMobsController handling GET /items_mobs/new should create an new items_mob
+ItemsMobsController handling GET /items_mobs/new should render new template
+ItemsMobsController handling GET /items_mobs/new should be successful
+ItemsMobsController handling GET /items_mobs/1.xml should render the found items_mob as xml
+ItemsMobsController handling GET /items_mobs/1.xml should find the items_mob requested
+ItemsMobsController handling GET /items_mobs/1.xml should be successful
+ItemsMobsController handling GET /items_mobs/1 should assign the found items_mob for the view
+ItemsMobsController handling GET /items_mobs/1 should find the items_mob requested
+ItemsMobsController handling GET /items_mobs/1 should render show template
+ItemsMobsController handling GET /items_mobs/1 should be successful
+ItemsMobsController handling GET /items_mobs.xml should render the found items_mobs as xml
+ItemsMobsController handling GET /items_mobs.xml should find all items_mobs
+ItemsMobsController handling GET /items_mobs.xml should be successful
+ItemsMobsController handling GET /items_mobs should assign the found items_mobs for the view
+ItemsMobsController handling GET /items_mobs should find all items_mobs
+ItemsMobsController handling GET /items_mobs should render index template
+ItemsMobsController handling GET /items_mobs should be successful
+/temple/index should tell you where to find the file

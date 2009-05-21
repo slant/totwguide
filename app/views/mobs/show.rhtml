@@ -1,0 +1,25 @@
+<%- @page_title = @mob.name -%>
+  <div id="mob_page">
+    <div id="page_name"><h3><%= @mob.name %></h3></div>
+    <div id="mob_details">
+      <dl>
+        <dt>level range</dt>
+        <%- if @mob.min_level || @mob.max_level -%>
+        <dd><%= @mob.min_level.nil? ? "?" : @mob.min_level.to_s %> - <%= @mob.max_level.nil? ? "?" : @mob.max_level.to_s %></dd><br />
+        <%- else -%>
+        <dd>unknown</dd><br />
+        <%- end -%>
+        <%- if @mob.spawntime -%>
+        <dt>spawn time</dt>
+        <dd><%= @mob.spawntime.to_s %></dd><br />
+        <%- end -%>
+        <dt>nano programs</dt>
+        <%- nanos = get_nanos(@mob) -%>
+        <dd><%= nanos.nil? ? nanos : "unknown" %></dd><br />
+      </dl>
+    </div>
+    <div id="item_list">
+      <h4>This mob drops <%= @mob.items.size %> items</h4>
+    <%= render :partial =>'shared/item', :collection => @mob.items %>
+    </div>
+  </div>

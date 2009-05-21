@@ -1,0 +1,22 @@
+<h1>Listing items_mobs</h1>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Mob</th>
+  </tr>
+  
+<% for items_mob in @items_mobs %>
+  <tr>
+    <td><%=h items_mob.item_id %></td>
+    <td><%=h items_mob.mob_id %></td>
+    <td><%= link_to 'Show', items_mob_path(items_mob) %></td>
+    <td><%= link_to 'Edit', edit_items_mob_path(items_mob) %></td>
+    <td><%= link_to 'Destroy', items_mob_path(items_mob), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New items_mob', new_items_mob_path %>
